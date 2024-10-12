@@ -1,0 +1,41 @@
+
+.sidebar {
+  list-style-type: disclosure-closed;
+  width: 20%;
+  padding-left: 0;
+  background:rgb(240, 235, 235);
+  padding: 10px;
+  margin-top: 0px;
+  text-align: left;
+}
+.sidebar ul {
+  padding: 0;
+  margin-top: 10px;
+}
+.sidebar .li {
+  padding-left: 15px;
+   /* Padding for the container */
+}
+.li li{
+  margin-left:20px;
+}
+.sidebar li {
+  font-style: normal;
+  color: black;
+  margin-top: 10px;
+  padding: 10px; 
+  border-color: #000;
+  border-radius: 0%;/* Padding for each list item */
+}
+
+.sidebar li a {
+  text-decoration: solid;
+  color: #000;
+  margin-top: 10px;
+  color:black;
+  font-size: 15px;
+}
+
+.sidebar li a:hover {
+  color: #007bff; /* Change color on hover */
+}
